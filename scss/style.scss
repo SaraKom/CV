@@ -1,0 +1,159 @@
+// @import "../node_modules/bootstrap/scss/accordion";
+// @import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+//COLOR_VARIABLES
+$red: #d11533;
+$bg-gray: #272525;
+$light-gray: #c9c8c9;
+$dark-gray: #7d7d7d;
+$white: #f1f1f1;
+//decor line
+$blue: #35d3da;
+$green: #9cb806;
+$yellow: #fef764;
+$orange: #f89c12;
+$redish: #f23c06;
+
+//BUILDING
+.decor-line {
+  display: flex;
+  height: 10px;
+
+  span {
+    flex-grow: 1;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.social-wrapper {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+
+  .social-icon {
+    text-decoration: none;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.container--main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 100%;
+  padding: 16px;
+}
+.img-wrapper {
+  margin-bottom: 16px;
+  display: flex;
+  img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+  }
+}
+
+.datas-wrapper {
+  line-height: 1.5em;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.datas-label {
+  position: relative;
+  display: inline-block;
+  width: 39%;
+}
+.datas {
+  position: relative;
+  display: inline-block;
+  width: 58%;
+}
+
+.hr {
+  height: 3px;
+  width: 70%;
+  border-width: 0;
+  color: $red;
+  background-color: $red;
+  justify-content: center;
+}
+
+// TYPOGRAPHY&COLORS
+.style-1 {
+  background-color: $blue;
+}
+
+.style-2 {
+  background-color: $green;
+}
+.style-3 {
+  background-color: $yellow;
+}
+.style-4 {
+  background-color: $orange;
+}
+.style-5 {
+  background-color: $redish;
+}
+.social-icon {
+  img {
+    background-color: $light-gray;
+  }
+}
+
+.content-wrapper {
+  font-family: Saira;
+  background-color: $bg-gray;
+  color: $white;
+}
+
+h1 {
+  font-family: Caveat;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: Caveat;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+span {
+  font-size: 14px;
+}
+
+h3,
+.datas {
+  color: $dark-gray;
+}
+
+.datas-label {
+  color: $light-gray;
+  font-weight: 200;
+}
+.datas_priority {
+  color: $red;
+}
+.hr {
+  border-top: 3px solid $red;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

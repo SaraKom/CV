@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_f489cf47df92206f2e52c411ff299071.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Saira:ital,wght@0,200;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <title>Sara Komives's CV</title>
+  </head>
+  <body>
+    <div class="container-fluid container--main px-0">
+      <header>
+        <span class="style-1"></span>
+        <span class="style-2"></span>
+        <span class="style-3"></span>
+        <span class="style-4"></span>
+        <span class="style-5"></span>
+      </header>
+      <!-- content -->
+      <div class="content-wrapper">
+        <section class="profile-section">
+          <div class="profile">
+            <div class="img-wrapper">
+              <div class="self_img">
+                <img src="/louise.HASH_REF_82c2350a2836ed12020b02d40b9bef81.jpg" alt="Kőmíves Sára" width="190" height="190">
+              </div>
+            </div>
+            <div class="name-wrapper">
+              <div class="name"><h1>Kőmíves Sára</h1></div>
+              <div class="position">
+                <h3>Sitebuilder, junior frontend fejlesztő</h3>
+              </div>
+            </div>
+            <div class="datas-wrapper">
+              <div class="datas_item">
+                <span>Név:</span><span>Kőmíves Sára</span>
+              </div>
+              <div class="datas_item">
+                <span>Születési idő:</span><span>1981. szeptember 26.</span>
+              </div>
+              <div class="datas_item">
+                <span>Cím:</span><span>3950 Sárospatak, Magyarország, Európa</span>
+              </div>
+              <div class="datas_item">
+                <span>E-mail cím:</span><span>sara.komives@gmail.com</span>
+              </div>
+              <div class="datas_item">
+                <span>Weboldal:</span><span>Lorem, ipsum.</span>
+              </div>
+            </div>
+          </div>
+          <hr style="
+              height: 2px;
+              width: 50%;
+              border-width: 0;
+              color: red;
+              background-color: red;
+            
+">
+          <div class="presentation">
+            I finished my vocational training and I'm looking for a new
+            challenge to further enhance my skills and knowledge as a frontend
+            developer. My previous work expirence have prepared me greatly to
+            successfully interpret between customers and vendors and to come up
+            with customised solutions that deliver per the clients' needs. I
+            always enjoyed problem-solving and to learn new ways to tackle the
+            same issue.
+          </div>
+        </section>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <section class="education-section">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Tanulmányaim
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="accordion-section">
+                    <div class="accordion-head">
+                      <div class="place-post-wrapper">
+                        <div class="post">Computer Science</div>
+                        <div class="place">Eszterházy Károly University</div>
+                      </div>
+                      <div class="date">2019-2021</div>
+                    </div>
+                    <div class="accordion-text">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the first item's accordion body.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="employment-section">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Munkahelyeim
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="skill-section">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Készségeim
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio-section">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Portfólió
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contact-section">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Kapcsolat
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div class="col_12">
+          <p class="text-small">Kőmíves Sára © 2021 All Rights Reserved</p>
+        </div>
+        bottom-bar
+      </footer>
+    </div>
+    <!-- JavaScript -->
+    <script src="/index.HASH_REF_0fa2489aa94c8731ee2aee9f3fafb3e2.js"></script>
+  </body>
+</html>

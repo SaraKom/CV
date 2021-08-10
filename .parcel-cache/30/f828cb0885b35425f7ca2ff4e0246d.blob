@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_f489cf47df92206f2e52c411ff299071.css">
+    <title>Sara Komives's CV</title>
+</head>
+<body>
+    <div class="container">
+        Sara Komives's CV
+    </div>
+    <button class="btn btn-lg btn-primary mt-3">Primary button</button>
+
+    <script src="/index.HASH_REF_0fa2489aa94c8731ee2aee9f3fafb3e2.js"></script>
+</body>
+</html>
