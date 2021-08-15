@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.container--main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
 .decor-line {
   display: flex;
   height: 10px;
@@ -10,7 +18,7 @@
   margin: 0;
 }
 .social-wrapper {
-  margin: 40px 0;
+  margin: 30px 0;
   display: flex;
   justify-content: space-around;
 }
@@ -21,52 +29,63 @@
   width: 20px;
   height: 20px;
 }
-.container--main {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: black;
-}
 .content-wrapper {
   width: 100%;
   max-width: 100%;
   padding: 16px;
 }
-.img-wrapper {
+.section-profile {
+  padding-bottom: 30px;
+}
+.section-profile .img-wrapper {
   margin-bottom: 16px;
   display: flex;
 }
-.img-wrapper img {
+.section-profile .img-wrapper img {
   border-radius: 50%;
   width: 140px;
   height: 140px;
   margin: 0 auto;
 }
-.datas-wrapper {
+.section-profile .name-wrapper {
+  padding-bottom: 20px;
+}
+.section-profile .datas-wrapper {
   line-height: 1.5em;
   display: block;
   position: relative;
-  width: 100%;
 }
-.datas-label {
+.section-profile .datas-label {
   position: relative;
   display: inline-block;
   width: 39%;
 }
-.datas {
+.section-profile .datas {
   position: relative;
   display: inline-block;
   width: 58%;
 }
-.hr {
+.section-profile .hr {
   height: 3px;
-  width: 70%;
+  width: 100%;
   border-width: 0;
-  color: #d11533;
-  background-color: #d11533;
+  color: #35d3da;
+  background-color: #35d3da;
   justify-content: center;
+}
+.accordion-header {
+  margin-bottom: -2px;
+  margin-top: -2px;
+}
+.accordion-text {
+  margin-bottom: 20px;
+}
+.post {
+  padding: 0px 12px;
+  margin-bottom: 6px;
+}
+.place {
+  font-weight: 200;
 }
 .style-1 {
   background-color: #35d3da;
@@ -92,13 +111,11 @@
   color: #f1f1f1;
 }
 h1, .h1 {
-  font-family: Caveat;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 0;
 }
 h3, .h3 {
-  font-family: Caveat;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 0;
@@ -115,10 +132,40 @@ h3, .h3,
   font-weight: 200;
 }
 .datas_priority {
-  color: #d11533;
+  color: #35d3da;
 }
 .hr {
-  border-top: 3px solid #d11533;
+  border-top: 3px solid #f23c06;
+}
+.accordion-item .accordion-header {
+  background-color: #272525 !important;
+}
+.accordion-item .accordion-header .accordion-button {
+  color: #f1f1f1;
+  background-color: #272525;
+}
+.accordion-body {
+  background-color: #272525 !important;
+}
+.post {
+  font-size: 1.2 rem;
+  font-weight: 600;
+  background-color: #7d7d7d;
+}
+.accordion-text {
+  font-size: 0.9rem;
+}
+.text-small {
+  color: #c9c8c9;
+  font-family: Saira;
+  font-size: 12px;
+  text-align: end;
+}
+.text-small a {
+  color: #35d3da;
+}
+.text-small a a:hover {
+  color: #9cb806;
 }
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
