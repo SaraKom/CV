@@ -1,6 +1,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-//@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/accordion";
 //@import "../node_modules/bootstrap/scss/buttons";
 //@import "../node_modules/bootstrap/scss/root";
 //@import "../node_modules/bootstrap/scss/progress";
@@ -113,10 +114,7 @@ $peach: #f36c4c;
 .accordion-item:last-child {
   border-bottom: 0px !important;
 }
-.accordion-header {
-  // margin-bottom: -2px;
-  // margin-top: -2px;
-}
+
 .accordion-text {
   margin-bottom: 20px;
 }
@@ -160,6 +158,10 @@ $peach: #f36c4c;
 }
 .dot-empty {
   opacity: 0.4;
+}
+
+.card {
+  margin-bottom: 30px;
 }
 
 // TYPOGRAPHY&COLORS
@@ -255,9 +257,6 @@ h3,
   }
   .accordion-button:not(.collapsed) {
     color: $bg-gray;
-    background-color: $light-gray;
-    // box-shadow: inset 20 -3px 10 rgba(0, 0, 0, 0.8);
-    border: none;
   }
 }
 .accordion-button:focus {
@@ -321,6 +320,10 @@ h3,
     background-color: $blue;
   }
 }
+.card-body {
+  background-color: black;
+  color: $white;
+}
 .text-small {
   color: $light-gray;
   font-family: Saira;
@@ -335,4 +338,3 @@ h3,
     }
   }
 }
-@import "../node_modules/bootstrap/scss/bootstrap.scss";

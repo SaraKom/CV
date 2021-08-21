@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="972c84206966c670065fc6af38012174">
+    <link rel="preconnect" href="f0284d369ac22f4308a77ec0c9977aa7">
+    <link rel="preconnect" href="d7c2b8c89e8843c0697300fa104dd24b" crossorigin="">
+    <link href="c353d732adad013f1bf01df93f9eb4c1" rel="stylesheet">
+    <title>Sara Komives's CV</title>
+  </head>
+  <body>
+    <div class="container-fluid container--main px-0">
+      <header>
+        <div class="decor-line">
+          <span class="style-1"></span>
+          <span class="style-2"></span>
+          <span class="style-3"></span>
+          <span class="style-4"></span>
+          <span class="style-5"></span>
+        </div>
+        <div class="social-wrapper">
+          <a class="social-icon"><img src="4f1c2706686cb3ec770ea130eb6b7e87" alt="Facbook"></a>
+          <a class="social-icon"><img src="b982f91b70d83dd80d4709cf6aeeaade" alt="GitHub"></a>
+          <a class="social-icon"><img src="f343bb898816eca14dd2def7b62a2230" alt="LinkedIn"></a>
+        </div>
+      </header>
+      <!-- content -->
+      <main class="container content-wrapper">
+        <section class="section-profile container">
+          <div class="profile row">
+            <div class="img-wrapper col-12 col-md-3 left-block">
+              <img src="a0e6e67a9febc4656d368cd710af4f82" alt="Kőmíves Sára">
+            </div>
+            <div class="name-wrapper col-12 col-md-4 midle-block">
+              <div class="name"><h1>Kőmíves Sára</h1></div>
+              <div class="position">
+                <h3>Sitebuilder, junior webdeveloper</h3>
+              </div>
+            </div>
+            <div class="datas-wrapper col-12 col-md-5 right-block">
+              <div class="datas-item">
+                <div class="datas-label">Name:</div>
+                <div class="datas">Sára Kőmíves</div>
+              </div>
+              <div class="datas-item">
+                <div class="datas-label">Birth date</div>
+                <div class="datas">26th september 1981</div>
+              </div>
+              <div class="datas-item">
+                <div class="datas-label">Adress:</div>
+                <div class="datas">H-3950 Sárospatak, EU</div>
+              </div>
+              <div class="datas-item">
+                <div class="datas-label">Phone:</div>
+                <div class="datas datas_priority">+36304894444</div>
+              </div>
+              <div class="datas-item">
+                <div class="datas-label">E-mail adress:</div>
+                <div class="datas datas_priority">sara.komives@gmail.com</div>
+              </div>
+              <div class="datas-item">
+                <div class="datas-label">Webpage:</div>
+                <div class="datas datas_priority">Lorem, ipsum.</div>
+              </div>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="presentation">
+            I finished my vocational training and I'm looking for a new
+            challenge to further enhance my skills and knowledge as a frontend
+            developer. My previous work expirence have prepared me greatly to
+            successfully interpret between customers and vendors and to come up
+            with customised solutions that deliver per the clients' needs. I
+            always enjoyed problem-solving and to learn new ways to tackle the
+            same issue.
+          </div>
+        </section>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <!-- EDUCATION -->
+          <div class="education accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <span class="education"> Education </span>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="accordion-section">
+                  <div class="accordion-head">
+                    <div class="place-post-wrapper">
+                      <div class="post">Computer Science</div>
+                      <div class="place">Eszterházy Károly University</div>
+                    </div>
+                    <div class="date">2019-2021</div>
+                  </div>
+                  <div class="accordion-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, dicta?
+                  </div>
+                  <div class="accordion-head">
+                    <div class="place-post-wrapper">
+                      <div class="post">Horse-riding tour leader diploma</div>
+                      <div class="place">OKJ</div>
+                    </div>
+                    <div class="date">2009</div>
+                  </div>
+                  <div class="accordion-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, dicta?
+                  </div>
+                  <div class="accordion-head">
+                    <div class="place-post-wrapper">
+                      <div class="post">Tour guide diploma</div>
+                      <div class="place">OKJ</div>
+                    </div>
+                    <div class="date">2007</div>
+                  </div>
+                  <div class="accordion-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, dicta?
+                  </div>
+                  <div class="accordion-head">
+                    <div class="place-post-wrapper">
+                      <div class="post">
+                        MA in French language and literature, secondary school
+                        teacher
+                      </div>
+                      <div class="place">Eötvös Lóránd University</div>
+                    </div>
+                    <div class="date">2001-2006</div>
+                  </div>
+                  <div class="accordion-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, dicta?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- WORK -->
+          <div class="employment accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <span class="work"> Work experience </span>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Frontend developer trainee</div>
+                    <div class="place">Calvus Communications Kft.</div>
+                  </div>
+                  <div class="date">2021 April - May</div>
+                </div>
+                <div class="accordion-text">
+                  Sitebuilding using HTML, Sass and Bootstrap and creation of
+                  e-DM using mjml framework.
+                </div>
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Sales & Marketing assistant</div>
+                    <div class="place">Gróf Degenfeld Winery</div>
+                  </div>
+                  <div class="date">2017 - today</div>
+                </div>
+                <div class="accordion-text">
+                  Relationship management of foreign and domestic vendors,
+                  coordination of the preparation and the delivery of orders.
+                </div>
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Visitor center associate and guide</div>
+                    <div class="place">Helia-D Herbal Experience Centre</div>
+                  </div>
+                  <div class="date">2016</div>
+                </div>
+                <div class="accordion-text">
+                  Creation and organizing of guided tours in the facilities,
+                  managing social media presence.
+                </div>
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Freelance consultant</div>
+                    <div class="place">
+                      Vinotech France Ltd. | Calvus Communication Ltd. | HunElan
+                      Meeting&Incentive Ltd.
+                    </div>
+                  </div>
+                  <div class="date">2011-2017</div>
+                </div>
+                <div class="accordion-text">
+                  Tour guiding, creation of offers, communication with partners,
+                  managing events, social media.
+                </div>
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Project manager</div>
+                    <div class="place">Aggtelek National Park Directorate</div>
+                  </div>
+                  <div class="date">2009-2011</div>
+                </div>
+                <div class="accordion-text">
+                  Management of Cross-Border Cooperation Project grant.
+                </div>
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Equestrian tourism manager</div>
+                    <div class="place">Aggtelek National Park Directorate</div>
+                  </div>
+                  <div class="date">2008-2009</div>
+                </div>
+                <div class="accordion-text">
+                  Organized and communicated about equestrian camps and tours.
+                </div>
+                <div class="accordion-head">
+                  <div class="place-post-wrapper">
+                    <div class="post">Travel Agent</div>
+                    <div class="place">Europe-Active Travel Agency</div>
+                  </div>
+                  <div class="date">2006-2008</div>
+                </div>
+                <div class="accordion-text">
+                  Developed, organized, promoted and led tours for individuals
+                  and groups.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SKILLS -->
+          <div class="skill accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <span class="skills"> Skills </span>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="programation">
+                  <h4>Programming Skills</h4>
+                  <p class="skill-text">HTML</p>
+                  <div class="progress">
+                    <div class="progress-bar prog1" role="progressbar" style="864ed324ec9354d791b39f53c3ef805d" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="skill-text">CSS</p>
+                  <div class="progress">
+                    <div class="progress-bar prog2" role="progressbar" style="3831157da00835c4bac5478d1ab0614f" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="skill-text">JavaScript</p>
+                  <div class="progress">
+                    <div class="progress-bar prog3" role="progressbar" style="27cd31d7a92102ed25528aa28a1759a1" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="skill-text">PHP&SQL</p>
+                  <div class="progress">
+                    <div class="progress-bar prog4" role="progressbar" style="a0fd5f671109e5b9aa9f0a1dac54deec" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="skill-text">JAVA&Python</p>
+                  <div class="progress">
+                    <div class="progress-bar prog5" role="progressbar" style="9400f1db5063e935773dd802029c4afe" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="framwork">
+                  <h4>Proficiency in framworks</h4>
+                  <div class="progress" style="cd07b7aca8edc746e61343248dc30027">
+                    <div class="progress-bar bg-bootstrap" role="progressbar" style="d653758a973cf314c13fa0da929a5cf9" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      Bootstrap
+                    </div>
+                    <div class="progress-bar bg-sass" role="progressbar" style="b4f9fe95e50f1189d9e0436a754e2224" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                      Sass
+                    </div>
+                    <div class="progress-bar bg-mjml" role="progressbar" style="ffa18c8d438caca405a4d01beca6a985" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                      MJML
+                    </div>
+                  </div>
+                </div>
+                <div class="language">
+                  <h4>Language Skills</h4>
+                  <div class="languges-wrapper">
+                    <div class="hu skill-text">
+                      <div class="language">Hungarian</div>
+                      <div class="dots">
+                        <div class="dot" data-value="1"></div>
+                        <div class="dot" data-value="2"></div>
+                        <div class="dot" data-value="3"></div>
+                        <div class="dot" data-value="4"></div>
+                        <div class="dot" data-value="5"></div>
+                      </div>
+                    </div>
+                    <div class="en skill-text">
+                      <div class="language">English</div>
+                      <div class="dots">
+                        <div class="dot" data-value="1"></div>
+                        <div class="dot" data-value="2"></div>
+                        <div class="dot" data-value="3"></div>
+                        <div class="dot dot-empty" data-value="4"></div>
+                        <div class="dot dot-empty" data-value="5"></div>
+                      </div>
+                    </div>
+                    <div class="fr skill-text">
+                      <div class="language">French</div>
+                      <div class="dots">
+                        <div class="dot" data-value="1"></div>
+                        <div class="dot" data-value="2"></div>
+                        <div class="dot" data-value="3"></div>
+                        <div class="dot" data-value="4"></div>
+                        <div class="dot dot-empty" data-value="5"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- PORTFOLIO -->
+          <div class="portfolio-accordion accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <span class="portfolio">Portfolio</span>
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="card" style="eab85de25ee220de6d594e5723efc66d">
+                  <img src="20e13d161fa201e9b7151531c21a699f" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Battelship game in JavaScript</h5>
+                    <p class="card-text">
+                      I made this game in Vanilla JavaScript for one of my
+                      courses.
+                    </p>
+                    <a href="2ee3108f9a58ae067a0e6927e839e38b" target="”_blank”" class="btn">Go to my GitHub page</a>
+                  </div>
+                </div>
+                <div class="card" style="df04d7e656b5f4c58151a0da6efa8756">
+                  <img src="36e11574c2a30c4c0af278dd4f6a0bdb" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">My first webpage</h5>
+                    <p class="card-text">
+                      Only HTML&CSS no framwork or preprocessor. Don't forget,
+                      I'm not a designer :-)
+                    </p>
+                    <a href="967b1922cb13a7f4640d1555f0ebb274" target="_blank" class="btn">Go to the page on GitHub</a>
+                  </div>
+                </div>
+                <div class="card" style="b1ee1656b63abc079068af21865d923f">
+                  <img src="a95f02cb4d9d1a2ecbbc9a28a1de297f" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MySQL&PHP</h5>
+                    <p class="card-text">
+                      An other exercise from the my vocational training at
+                      Eszterházy Károly University. The professor giv us the
+                      database we hade to make 13 querries.
+                    </p>
+                    <a href="d38652ff8578e13b71475c2529b2ea72" target="_blank" class="btn">Go to my GitHub page</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CONTACT -->
+          <div class="contact-accordion accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <span class="contact">Contact</span>
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="container">
+        <div class="col-12">
+          <p class="text-small">
+            <a href="#" target="blank">Kőmíves Sára</a> © 2021 All Rights
+            Reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- JavaScript -->
+    <script src="9f3f0397a3729cfef951edc494372e0c"></script>
+  </body>
+</html>
