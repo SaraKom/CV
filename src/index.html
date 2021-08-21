@@ -96,7 +96,7 @@
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
               >
-                Education
+                <span class="education"> Education </span>
               </button>
             </h2>
             <div
@@ -169,7 +169,7 @@
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-                Work experience
+                <span class="work"> Work experience </span>
               </button>
             </h2>
             <div
@@ -271,7 +271,7 @@
                 aria-expanded="false"
                 aria-controls="flush-collapseThree"
               >
-                Skills
+                <span class="skills"> Skills </span>
               </button>
             </h2>
             <div
@@ -283,32 +283,43 @@
               <div class="accordion-body">
                 <div class="programation">
                   <h4>Programming Skills</h4>
-                  <h5>HTML</h5>
+                  <p class="skill-text">HTML</p>
                   <div class="progress">
                     <div
-                      class="progress-bar bg-success"
+                      class="progress-bar prog1"
                       role="progressbar"
-                      style="width: 25%"
-                      aria-valuenow="25"
+                      style="width: 94%"
+                      aria-valuenow="89"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <h5>CSS</h5>
+                  <p class="skill-text">CSS</p>
                   <div class="progress">
                     <div
-                      class="progress-bar bg-info"
+                      class="progress-bar prog2"
                       role="progressbar"
-                      style="width: 50%"
-                      aria-valuenow="50"
+                      style="width: 89%"
+                      aria-valuenow="89"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <h3>JavaScript</h3>
+                  <p class="skill-text">JavaScript</p>
                   <div class="progress">
                     <div
-                      class="progress-bar bg-warning"
+                      class="progress-bar prog3"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <p class="skill-text">PHP&SQL</p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar prog4"
                       role="progressbar"
                       style="width: 75%"
                       aria-valuenow="75"
@@ -316,27 +327,86 @@
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <h3>PHP&SQL</h3>
+                  <p class="skill-text">JAVA&Python</p>
                   <div class="progress">
                     <div
-                      class="progress-bar bg-danger"
+                      class="progress-bar prog5"
                       role="progressbar"
-                      style="width: 100%"
-                      aria-valuenow="100"
+                      style="width: 55%"
+                      aria-valuenow="55"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <h3>JAVA, Python</h3>
-                  <div class="progress">
+                </div>
+                <div class="framwork">
+                  <h4>Proficiency in framworks</h4>
+                  <div class="progress" style="height: 20px">
                     <div
-                      class="progress-bar bg-danger"
+                      class="progress-bar bg-bootstrap"
                       role="progressbar"
-                      style="width: 100%"
-                      aria-valuenow="100"
+                      style="width: 25%"
+                      aria-valuenow="25"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                    ></div>
+                    >
+                      Bootstrap
+                    </div>
+                    <div
+                      class="progress-bar bg-sass"
+                      role="progressbar"
+                      style="width: 30%"
+                      aria-valuenow="30"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      Sass
+                    </div>
+                    <div
+                      class="progress-bar bg-mjml"
+                      role="progressbar"
+                      style="width: 45%"
+                      aria-valuenow="45"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      MJML
+                    </div>
+                  </div>
+                </div>
+                <div class="language">
+                  <h4>Language Skills</h4>
+                  <div class="languges-wrapper">
+                    <div class="hu skill-text">
+                      <div class="language">Hungarian</div>
+                      <div class="dots">
+                        <div class="dot" data-value="1"></div>
+                        <div class="dot" data-value="2"></div>
+                        <div class="dot" data-value="3"></div>
+                        <div class="dot" data-value="4"></div>
+                        <div class="dot" data-value="5"></div>
+                      </div>
+                    </div>
+                    <div class="en skill-text">
+                      <div class="language">English</div>
+                      <div class="dots">
+                        <div class="dot" data-value="1"></div>
+                        <div class="dot" data-value="2"></div>
+                        <div class="dot" data-value="3"></div>
+                        <div class="dot dot-empty" data-value="4"></div>
+                        <div class="dot dot-empty" data-value="5"></div>
+                      </div>
+                    </div>
+                    <div class="fr skill-text">
+                      <div class="language">French</div>
+                      <div class="dots">
+                        <div class="dot" data-value="1"></div>
+                        <div class="dot" data-value="2"></div>
+                        <div class="dot" data-value="3"></div>
+                        <div class="dot" data-value="4"></div>
+                        <div class="dot dot-empty" data-value="5"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -354,7 +424,7 @@
                 aria-expanded="false"
                 aria-controls="flush-collapseFour"
               >
-                Portfólió
+                <span class="portfolio">Portfolio</span>
               </button>
             </h2>
             <div
@@ -371,6 +441,7 @@
               </div>
             </div>
           </div>
+          <!-- CONTACT -->
           <div class="contact accordion-item">
             <h2 class="accordion-header" id="flush-headingFive">
               <button
@@ -381,7 +452,7 @@
                 aria-expanded="false"
                 aria-controls="flush-collapseFive"
               >
-                Kapcsolat
+                <span class="contact">Contact</span>
               </button>
             </h2>
             <div

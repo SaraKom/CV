@@ -1,9 +1,9 @@
-// @import "../node_modules/bootstrap/scss/accordion";
-// @import "../node_modules/bootstrap/scss/buttons";
-// @import "../node_modules/bootstrap/scss/root";
-// @import "../node_modules/bootstrap/scss/progress";
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
+//@import "../node_modules/bootstrap/scss/accordion";
+//@import "../node_modules/bootstrap/scss/buttons";
+//@import "../node_modules/bootstrap/scss/root";
+//@import "../node_modules/bootstrap/scss/progress";
 
 //COLOR_VARIABLES
 $bg-gray: #272525;
@@ -16,6 +16,10 @@ $green: #9cb806;
 $yellow: #fef764;
 $orange: #f89c12;
 $red: #f23c06;
+//FRAMWORKS COLORS
+$violet: #7952b3;
+$pink: #bf4080;
+$peach: #f36c4c;
 
 //BUILDING
 
@@ -81,7 +85,6 @@ $red: #f23c06;
     line-height: 1.5em;
     display: block;
     position: relative;
-    //width: 100%;
   }
   .datas-label {
     position: relative;
@@ -104,9 +107,15 @@ $red: #f23c06;
   }
 }
 
+.accordion-item {
+  border-bottom: 1px solid $light-gray !important;
+}
+.accordion-item:last-child {
+  border-bottom: 0px !important;
+}
 .accordion-header {
-  margin-bottom: -2px;
-  margin-top: -2px;
+  // margin-bottom: -2px;
+  // margin-top: -2px;
 }
 .accordion-text {
   margin-bottom: 20px;
@@ -117,6 +126,40 @@ $red: #f23c06;
 }
 .place {
   font-weight: 200;
+}
+
+.programation {
+  padding-bottom: 30px;
+  p {
+    margin: 8px;
+  }
+}
+.framwork {
+  padding-bottom: 30px;
+}
+.languges-wrapper {
+  display: block;
+  position: relative;
+}
+.language {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+}
+.dots {
+  display: inline-block;
+  position: relative;
+  width: 35%;
+}
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.dot-empty {
+  opacity: 0.4;
 }
 
 // TYPOGRAPHY&COLORS
@@ -158,6 +201,12 @@ h3 {
   font-weight: 400;
   margin-bottom: 0;
 }
+
+.skill-text {
+  font-size: 16px;
+  font-weight: 200;
+  color: $light-gray;
+}
 span {
   font-size: 14px;
 }
@@ -169,7 +218,7 @@ h3,
 
 .datas-label {
   color: $light-gray;
-  font-weight: 200;
+  font-weight: 700;
 }
 .datas_priority {
   color: $blue;
@@ -180,10 +229,42 @@ h3,
 
 .accordion-item .accordion-header {
   background-color: $bg-gray !important;
+
   .accordion-button {
-    color: $white;
     background-color: $bg-gray;
+    span {
+      font-weight: 600;
+      font-size: 24px;
+      padding: 4px 24px;
+    }
+    .education {
+      background-color: $blue;
+    }
+    .work {
+      background-color: $green;
+    }
+    .skills {
+      background-color: $yellow;
+    }
+    .portfolio {
+      background-color: $orange;
+    }
+    .contact {
+      background-color: $red;
+    }
   }
+  .accordion-button:not(.collapsed) {
+    color: $bg-gray;
+    background-color: $light-gray;
+    // box-shadow: inset 20 -3px 10 rgba(0, 0, 0, 0.8);
+    border: none;
+  }
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: $bg-gray !important;
+  outline: 0;
+  box-shadow: 0 0 0 0;
 }
 .accordion-body {
   background-color: $bg-gray !important;
@@ -195,6 +276,50 @@ h3,
 }
 .accordion-text {
   font-size: 0.9rem;
+}
+
+.progress {
+  background-color: $dark-gray !important;
+}
+.prog1 {
+  background-color: $blue !important;
+}
+.prog2 {
+  background-color: $green !important;
+}
+.prog3 {
+  background-color: $yellow !important;
+}
+.prog4 {
+  background-color: $orange !important;
+}
+.prog5 {
+  background-color: $red !important;
+}
+.bg-bootstrap {
+  background-color: $violet !important;
+}
+.bg-sass {
+  background-color: $pink !important;
+}
+.bg-mjml {
+  background-color: $peach !important;
+}
+.hu {
+  .dot {
+    background-color: $green;
+  }
+}
+
+.en {
+  .dot {
+    background-color: $red;
+  }
+}
+.fr {
+  .dot {
+    background-color: $blue;
+  }
 }
 .text-small {
   color: $light-gray;

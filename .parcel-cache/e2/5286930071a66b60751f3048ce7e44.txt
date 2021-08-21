@@ -138,7 +138,7 @@
 47/home/fonok/cv/node_modules/braces/CHANGELOG.md1628106977891979668 0
 76/home/fonok/cv/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js1628108767829520025 0
 79/home/fonok/cv/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js.flow1628108767761519605 0
-38/home/fonok/cv/dist/index.ff299071.css1629039215130694193 0
+38/home/fonok/cv/dist/index.ff299071.css1629554314784617583 0
 49/home/fonok/cv/node_modules/braces/lib/compile.js1628106977895979688 0
 84/home/fonok/cv/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js.flow1628108767757519581 0
 74/home/fonok/cv/node_modules/@popperjs/core/lib/dom-utils/getWindow.js.flow1628108767757519581 0
@@ -292,13 +292,13 @@
 72/home/fonok/cv/node_modules/@parcel/source-map/wasm-node/source-map.wasm1628108341814685875 0
 52/home/fonok/cv/node_modules/node-addon-api/nothing.c1628108341718685175 0
 73/home/fonok/cv/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css.map1628108767913520543 0
-30/home/fonok/cv/scss/style.scss1629039206374670230 0
+30/home/fonok/cv/scss/style.scss1629554312856608175 0
 47/home/fonok/cv/node_modules/.bin/node-gyp-build1628108343350697064 0
 65/home/fonok/cv/node_modules/bootstrap/scss/forms/_form-range.scss1628108768065521481 0
 70/home/fonok/cv/node_modules/bootstrap/js/dist/dom/event-handler.js.map1628108768033521284 0
 41/home/fonok/cv/dist/index.01a1c8c0.js.map1628108635340686394 0
 66/home/fonok/cv/node_modules/@popperjs/core/dist/esm/popper-base.js1628108767877520321 0
-41/home/fonok/cv/dist/facebook.58754b0f.png1629039215114694148 0
+41/home/fonok/cv/dist/facebook.58754b0f.png1629554314640616880 0
 52/home/fonok/cv/node_modules/bootstrap/scss/_nav.scss1628108768069521506 0
 65/home/fonok/cv/node_modules/@parcel/transformer-sass/package.json1628108343338696977 0
 71/home/fonok/cv/node_modules/@parcel/source-map/src/MappingContainer.cpp1628108341730685263 0
@@ -354,14 +354,14 @@
 76/home/fonok/cv/node_modules/@popperjs/core/lib/dom-utils/isTableElement.d.ts1628108767953520790 0
 38/home/fonok/cv/node_modules/is-extglob1628106977891979668 1
 45/home/fonok/cv/node_modules/sass/package.json1628106978027980285 0
-42/home/fonok/cv/dist/index.ff299071.css.map1629039215138694214 0
+42/home/fonok/cv/dist/index.ff299071.css.map1629554314804617680 0
 75/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/orderModifiers.js1628108767873520296 0
 50/home/fonok/cv/node_modules/normalize-path/LICENSE1628106977891979668 0
 72/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/mergeByName.js1628108767869520272 0
 21/home/fonok/cv/sassrc1628107071652400719 0
 46/home/fonok/cv/node_modules/.package-lock.json1628108839033955326 0
 90/home/fonok/cv/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js.flow1628108767753519556 0
-30/home/fonok/cv/dist/index.html1629039215118694161 0
+30/home/fonok/cv/dist/index.html1629554314756617446 0
 78/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/validateModifiers.js1628108767905520494 0
 74/home/fonok/cv/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js1628108767869520272 0
 73/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/getVariation.js1628108767849520149 0
@@ -371,7 +371,7 @@
 67/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/format.js1628108767817519951 0
 77/home/fonok/cv/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map1628108767917520568 0
 79/home/fonok/cv/node_modules/@popperjs/core/dist/esm/dom-utils/isScrollParent.js1628108767865520247 0
-39/home/fonok/cv/dist/louise.0b9bef81.jpg1629039215122694171 0
+39/home/fonok/cv/dist/louise.0b9bef81.jpg1629554314664616997 0
 24/home/fonok/cv/README.md1628596679472150848 0
 67/home/fonok/cv/node_modules/@popperjs/core/lib/modifiers/arrow.d.ts1628108767933520666 0
 61/home/fonok/cv/node_modules/@popperjs/core/lib/popper-base.js1628108767881520346 0
@@ -395,7 +395,7 @@
 81/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/computeAutoPlacement.js1628108767781519728 0
 54/home/fonok/cv/node_modules/node-gyp-build/optional.js1628108341730685263 0
 62/home/fonok/cv/node_modules/bootstrap/js/src/util/focustrap.js1628108767873520296 0
-37/home/fonok/cv/dist/index.3fafb3e2.js1629039215130694193 0
+37/home/fonok/cv/dist/index.3fafb3e2.js1629554314784617583 0
 80/home/fonok/cv/node_modules/@popperjs/core/dist/esm/dom-utils/getClippingRect.js1628108767825520000 0
 51/home/fonok/cv/node_modules/@popperjs/core/dist/cjs1628108767921520593 1
 71/home/fonok/cv/node_modules/@parcel/source-map/src/sourcemap-schema.fbs1628108341742685350 0
@@ -409,7 +409,7 @@
 76/home/fonok/cv/node_modules/@popperjs/core/dist/esm/utils/expandToHashMap.js1628108767817519951 0
 51/home/fonok/cv/node_modules/to-regex-range/index.js1628106977891979668 0
 67/home/fonok/cv/node_modules/@popperjs/core/dist/esm/createPopper.js1628108767801519853 0
-39/home/fonok/cv/dist/github.b531ec5e.png1629039215114694148 0
+39/home/fonok/cv/dist/github.b531ec5e.png1629554314644616900 0
 76/home/fonok/cv/node_modules/@popperjs/core/dist/esm/modifiers/applyStyles.js1628108767777519704 0
 75/home/fonok/cv/node_modules/@popperjs/core/lib/dom-utils/getParentNode.d.ts1628108767945520740 0
 54/home/fonok/cv/node_modules/bootstrap/scss/_badge.scss1628108768057521432 0
@@ -462,7 +462,7 @@
 69/home/fonok/cv/node_modules/@popperjs/core/lib/modifiers/flip.js.flow1628108767725519383 0
 82/home/fonok/cv/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.d.ts1628108767941520717 0
 70/home/fonok/cv/node_modules/@popperjs/core/dist/umd/popper-base.js.map1628108767913520543 0
-29/home/fonok/cv/src/index.html1629039210578681707 0
+29/home/fonok/cv/src/index.html1629554312856608175 0
 81/home/fonok/cv/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js.flow1628108767709519285 0
 71/home/fonok/cv/node_modules/bootstrap/scss/helpers/_stretched-link.scss1628108768077521555 0
 65/home/fonok/cv/node_modules/bootstrap/scss/mixins/_deprecate.scss1628108768065521481 0
@@ -551,7 +551,7 @@
 55/home/fonok/cv/node_modules/is-binary-path/package.json1628106977927979831 0
 50/home/fonok/cv/node_modules/is-binary-path/license1628106977931979851 0
 53/home/fonok/cv/node_modules/is-binary-path/index.d.ts1628106977927979831 0
-19/home/fonok/cv/dist1629039215142694227 1
+19/home/fonok/cv/dist1629554314820617758 1
 54/home/fonok/cv/node_modules/bootstrap/scss/_close.scss1628108768065521481 0
 51/home/fonok/cv/node_modules/is-binary-path/index.js1628106977931979851 0
 59/home/fonok/cv/node_modules/@parcel/plugin/src/PluginAPI.js1628108341730685263 0
@@ -594,7 +594,7 @@
 47/home/fonok/cv/node_modules/picomatch/README.md1628106977899979706 0
 54/home/fonok/cv/node_modules/picomatch/lib/constants.js1628106977891979668 0
 46/home/fonok/cv/node_modules/@parcel/plugin/lib1628108341726685233 1
-41/home/fonok/cv/dist/linkedin.d0b053c9.png1629039215094694095 0
+41/home/fonok/cv/dist/linkedin.d0b053c9.png1629554314744617387 0
 50/home/fonok/cv/node_modules/picomatch/lib/utils.js1628106977895979688 0
 56/home/fonok/cv/node_modules/@parcel/source-map/README.md1628108341794685728 0
 63/home/fonok/cv/node_modules/@popperjs/core/lib/popper-lite.d.ts1628108767961520840 0
@@ -708,7 +708,7 @@
 53/home/fonok/cv/node_modules/node-addon-api/LICENSE.md1628108341778685612 0
 68/home/fonok/cv/node_modules/binary-extensions/binary-extensions.json1628106977915979778 0
 50/home/fonok/cv/node_modules/bootstrap/package.json1628108767897520444 0
-41/home/fonok/cv/dist/index.3fafb3e2.js.map1629039215142694227 0
+41/home/fonok/cv/dist/index.3fafb3e2.js.map1629554314820617758 0
 45/home/fonok/cv/node_modules/bootstrap/LICENSE1628108767689519162 0
 58/home/fonok/cv/node_modules/bootstrap/scss/_accordion.scss1628108768053521408 0
 59/home/fonok/cv/node_modules/bootstrap/scss/_breadcrumb.scss1628108768057521432 0
