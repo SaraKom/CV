@@ -52,7 +52,7 @@
                 <div class="datas">Sára Kőmíves</div>
               </div>
               <div class="datas-item">
-                <div class="datas-label">Birth date</div>
+                <div class="datas-label">Birth date:</div>
                 <div class="datas">26th september 1981</div>
               </div>
               <div class="datas-item">
@@ -61,15 +61,19 @@
               </div>
               <div class="datas-item">
                 <div class="datas-label">Phone:</div>
-                <div class="datas datas_priority">+36304894444</div>
+                <a class="datas link" href="tel:+36304894444">+36304894444</a>
               </div>
               <div class="datas-item">
-                <div class="datas-label">E-mail adress:</div>
-                <div class="datas datas_priority">sara.komives@gmail.com</div>
+                <div class="datas-label">E-mail:</div>
+                <a class="datas link" href="mailto:sara.komives@gmail.com"
+                  >sara.komives@gmail.com</a
+                >
               </div>
               <div class="datas-item">
                 <div class="datas-label">Webpage:</div>
-                <div class="datas datas_priority">Lorem, ipsum.</div>
+                <a class="datas link" href="https://www.???.com"
+                  >Lorem, ipsum.</a
+                >
               </div>
             </div>
           </div>
@@ -433,61 +437,72 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="img/battelship.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Battelship game in JavaScript</h5>
-                    <p class="card-text">
-                      I made this game in Vanilla JavaScript for one of my
-                      courses.
-                    </p>
-                    <a
-                      href="https://sarakom.github.io/Battelship/"
-                      target="”_blank”"
-                      class="btn"
-                      >Go to my GitHub page</a
-                    >
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                  <div class="col">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="img/battelship.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Battelship game in JavaScript
+                        </h5>
+                        <p class="card-text">
+                          I made this game in Vanilla JavaScript for one of my
+                          courses.
+                        </p>
+                        <a
+                          href="https://sarakom.github.io/Battelship/"
+                          target="”_blank”"
+                          class="btn link"
+                          role="button"
+                          >Go to my GitHub page</a
+                        >
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="img/pszihomokus.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">My first webpage</h5>
-                    <p class="card-text">
-                      Only HTML&CSS no framwork or preprocessor. Don't forget,
-                      I'm not a designer :-)
-                    </p>
-                    <a
-                      href="https://sarakom.github.io/PszihoMokus/"
-                      target="_blank"
-                      class="btn"
-                      >Go to the page on GitHub</a
-                    >
+                  <div class="col">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="img/pszihomokus.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">My first webpage</h5>
+                        <p class="card-text">
+                          Only HTML&CSS no framwork or preprocessor. Don't
+                          forget, I'm not a designer :-)
+                        </p>
+                        <a
+                          href="https://sarakom.github.io/PszihoMokus/"
+                          target="_blank"
+                          class="btn link"
+                          >Go to the page on GitHub</a
+                        >
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                  <img src="img/vet.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">MySQL&PHP</h5>
-                    <p class="card-text">
-                      An other exercise from the my vocational training at
-                      Eszterházy Károly University. The professor giv us the
-                      database we hade to make 13 querries.
-                    </p>
-                    <a
-                      href="https://github.com/SaraKom/Vet"
-                      target="_blank"
-                      class="btn"
-                      >Go to my GitHub page</a
-                    >
+                  <div class="col">
+                    <div class="card" style="width: 18rem">
+                      <img src="img/vet.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">MySQL&PHP</h5>
+                        <p class="card-text">
+                          An exercise from my vocational training at Eszterházy
+                          Károly University. The professor giv us the database
+                          we hade to make 13 querries.
+                        </p>
+                        <a
+                          href="https://github.com/SaraKom/Vet"
+                          target="_blank"
+                          class="btn link"
+                          >Go to my GitHub page</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -530,8 +545,8 @@
       <footer class="container">
         <div class="col-12">
           <p class="text-small">
-            <a href="#" target="blank">Kőmíves Sára</a> © 2021 All Rights
-            Reserved
+            <a class="link" href="#" target="blank">Kőmíves Sára</a> © 2021 All
+            Rights Reserved
           </p>
         </div>
       </footer>

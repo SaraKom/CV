@@ -1,10 +1,9 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootstrap/scss/accordion";
-//@import "../node_modules/bootstrap/scss/buttons";
-//@import "../node_modules/bootstrap/scss/root";
-//@import "../node_modules/bootstrap/scss/progress";
+// @import "../node_modules/bootstrap/scss/accordion";
+// @import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/progress";
 
 //COLOR_VARIABLES
 $bg-gray: #272525;
@@ -90,12 +89,12 @@ $peach: #f36c4c;
   .datas-label {
     position: relative;
     display: inline-block;
-    width: 39%;
+    width: 30%;
   }
   .datas {
     position: relative;
     display: inline-block;
-    width: 58%;
+    width: 68%;
   }
 
   .hr {
@@ -222,9 +221,28 @@ h3,
   color: $light-gray;
   font-weight: 700;
 }
-.datas_priority {
+a,
+.btn,
+.link {
   color: $blue;
+  text-decoration: none;
 }
+a,
+.btn,
+.link:hover {
+  color: $green;
+}
+a,
+.btn,
+.link:active {
+  color: $orange;
+}
+.card-body {
+  .btn {
+    border: 2px solid $white;
+  }
+}
+
 .hr {
   border-top: 3px solid $red;
 }
@@ -329,12 +347,5 @@ h3,
   font-family: Saira;
   font-size: 12px;
   text-align: end;
-
-  a {
-    color: #35d3da;
-
-    a:hover {
-      color: $green;
-    }
-  }
 }
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
